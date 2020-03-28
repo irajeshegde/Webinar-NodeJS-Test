@@ -11,7 +11,7 @@ app.get("*", function (req, res) {
 	res.send("ERROR 404 PAGE NOT FOUND! GOOD BYE!");
 });
 
-var server = app.listen(3000, "0.0.0.0", function () {
+var server = app.listen(5000, "0.0.0.0", function () {
 	var host = server.address().address;
 	var port = server.address().port;
 	console.log("listening at http://%s:%s\n", host, port);
